@@ -44,7 +44,7 @@ async function run() {
             json: { "custom_status": { "text": custom_status } }
         })
         console.log(custom_status);
-        await delay(2500)
+        await delay(2000)
     }
 }
 
